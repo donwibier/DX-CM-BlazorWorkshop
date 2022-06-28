@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DX.BlazorStateMgtDemo", "DX.BlazorStateMgtDemo\DX.BlazorStateMgtDemo.csproj", "{0D7DD4E1-B4C5-4E1B-8E75-2F39F3EA1880}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebComponents", "blazor-webcomponents-demo\BlazorWebComponents.csproj", "{766FA28F-1792-4F85-9B23-267D427A0C77}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "angular-component", "angular-component\", "{849CC6A3-D075-4C09-91D0-5CA6392D013E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55463"
+		Debug.AspNetCompiler.PhysicalPath = "angular-component\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55463\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55463"
+		Release.AspNetCompiler.PhysicalPath = "angular-component\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55463\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55463"
+		SlnRelativePath = "angular-component\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdvancedState", "AdvancedState", "{C8F959CB-3C48-4282-A093-753A0CEFD09A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.FluxorTest.Client", "Blazor.FluxorTest\Client\Blazor.FluxorTest.Client.csproj", "{2A49F070-13E4-4733-9B04-D4B523A71D0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.FluxorTest.Server", "Blazor.FluxorTest\Server\Blazor.FluxorTest.Server.csproj", "{4A561631-4836-490A-BD47-431104BB8E7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.FluxorTest.Shared", "Blazor.FluxorTest\Shared\Blazor.FluxorTest.Shared.csproj", "{B36F5673-1E29-47AE-87F9-E37308CCD92C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7DD4E1-B4C5-4E1B-8E75-2F39F3EA1880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7DD4E1-B4C5-4E1B-8E75-2F39F3EA1880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7DD4E1-B4C5-4E1B-8E75-2F39F3EA1880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7DD4E1-B4C5-4E1B-8E75-2F39F3EA1880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766FA28F-1792-4F85-9B23-267D427A0C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766FA28F-1792-4F85-9B23-267D427A0C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766FA28F-1792-4F85-9B23-267D427A0C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766FA28F-1792-4F85-9B23-267D427A0C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849CC6A3-D075-4C09-91D0-5CA6392D013E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849CC6A3-D075-4C09-91D0-5CA6392D013E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849CC6A3-D075-4C09-91D0-5CA6392D013E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{849CC6A3-D075-4C09-91D0-5CA6392D013E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2A49F070-13E4-4733-9B04-D4B523A71D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A49F070-13E4-4733-9B04-D4B523A71D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A49F070-13E4-4733-9B04-D4B523A71D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A49F070-13E4-4733-9B04-D4B523A71D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A561631-4836-490A-BD47-431104BB8E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A561631-4836-490A-BD47-431104BB8E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A561631-4836-490A-BD47-431104BB8E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A561631-4836-490A-BD47-431104BB8E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36F5673-1E29-47AE-87F9-E37308CCD92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36F5673-1E29-47AE-87F9-E37308CCD92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36F5673-1E29-47AE-87F9-E37308CCD92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36F5673-1E29-47AE-87F9-E37308CCD92C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A49F070-13E4-4733-9B04-D4B523A71D0C} = {C8F959CB-3C48-4282-A093-753A0CEFD09A}
+		{4A561631-4836-490A-BD47-431104BB8E7A} = {C8F959CB-3C48-4282-A093-753A0CEFD09A}
+		{B36F5673-1E29-47AE-87F9-E37308CCD92C} = {C8F959CB-3C48-4282-A093-753A0CEFD09A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {343E5620-1E8E-4B6C-B6F9-477E19043D9A}
+	EndGlobalSection
+EndGlobal
